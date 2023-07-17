@@ -1,0 +1,396 @@
+/* formatação geral*/
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    /*font family*/
+    /*font-family: 'Bebas Neue', sans-serif, cursive;*/
+    font-family: 'Teko', sans-serif, cursive;
+}
+
+h1, h2, h3{
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    font-weight: 800;
+}
+
+/*parágrafo*/
+p{
+    font-family: 'Bebas Neue', sans-serif, cursive;
+}
+
+.container{
+    width: 100%;
+}
+/* cabeçalho */
+/* logotipo */
+.logo img{
+    border-radius: 50px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    padding: 1.5%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: grey;
+}
+
+/* header */
+
+header{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+header p{
+    margin-bottom: 2em;
+    font-size: 1.7em;
+}
+
+.botao{
+    color: grey;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+    font-size: 1.5em;
+    border-radius: 50px;
+}
+
+/* sobre nós/ about us */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+    color: gray;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.foto img{
+    width: 60%;
+}
+
+.foto{
+float: left;
+width: 50%;
+}
+
+.texto{
+    float: right;
+    width: 50%;
+}
+
+/* especialidades */
+
+#especialidades{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+#especialidades div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#especialidades p{
+    line-height: 1.5;
+    margin: 2vh;
+    font-size: 1.2;
+}
+
+#especialidades img{
+    margin: 10px 0;
+}
+
+#especialidades h2{
+    font-size: 2em;
+}
+
+/* competências */
+
+#competencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#competencias h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#competencias h3{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+}
+
+#competencias p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+}
+
+#competencias a{
+    text-decoration: none;
+}
+
+#competencias img{
+    align-items: center;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+#competencias .comp p{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5;
+}
+
+.rede img:hover{
+    -ms-transform: scale(10px);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.rede img{
+    border: 2px solid black;
+}
+
+/* hobby */
+
+#hobby{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+#hobby h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.hobby{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+.hobby h3{
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+/* contato */
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: radial-gradient( circle 401px at 50.6% -0.3%,  rgba(255,255,255,0.31) 1.2%, rgba(36,212,219,1) 100.2% );
+}
+
+#contato h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: grey;
+}
+
+#contato > p{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: grey;
+    text-align: center;
+}
+
+#contato a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+@media screen and (min-width: 768px){
+/* cabeçalho */
+nav{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul{
+    flex-direction: row;
+    width: 80%;
+}
+
+/* header */
+header{
+    height: 600px;
+    justify-content: center;
+}
+
+/* sobre nós/about us*/
+#about{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    height: 90vh;
+    justify-content:center;
+    min-height: 80vh;
+}
+
+#about h2{
+    text-align: center;
+    width: 100%;
+}
+
+#about div{
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0 10px;
+}
+
+/* especialidades */
+
+#especialidades{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#especialidades h2{
+    text-align: center;
+    width: 100%;
+}
+
+#especialidades div{
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+}
+
+/* competências */
+#competencias img{
+    align-items: center;
+    width: 30%;
+    margin-bottom: 0;
+}
+#competencias{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#competencias h2, h3{
+    width: 100%;
+    text-align: center;
+}
+
+#competencias .comp{
+    width: 33%;
+    text-align: center;
+}
+#competencias .rede img{
+    align-items: center;
+    width: 80%;
+    margin-bottom: 0;
+}
+
+/* contato */
+
+#contato{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    max-height: 40vh;
+    width: 100%;
+    border-bottom: orange solid 1px;
+}
+
+#contato h2,
+#contato p{
+width: 100%;
+text-align: center;
+padding-bottom: 10px;
+} 
+}
